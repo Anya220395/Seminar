@@ -34,7 +34,7 @@ else if (dayOfWeek == 7)
 {
     Console.WriteLine("Воскресенье");
 }
-else;
+else
 {
     Console.WriteLine("Введите число от 1 до 7");
 }
