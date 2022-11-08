@@ -1,7 +1,7 @@
 ﻿/*Напишите программу, которая позаданному номеру четверти, показывает диапазон возможных координат точек в этой четверти (x и y).*/
 
 Console.Write("Введите номер четверти: ");
-string quater = Console.ReadLine();
+string quater = Console.ReadLine()!;
 
 string Quater(string quaterXY)
 {
