@@ -8,9 +8,9 @@
 918 -> 1*/
 
 Console.Write("Введите трехзначное число: ");
-int number = Convert.ToInt32(Console.ReadLine());
+int number = Math.Abs(Convert.ToInt32(Console.ReadLine()));
 
-if (number > 99 && number < 1000)
+if (number >= 100 && number <= 999)
 {
     Console.WriteLine($"Вторая цифра числа {number} = {(number / 10) % 10} ");
 }
