@@ -31,7 +31,6 @@ for (int i = 0; i < array.Length; i++)
 {
 if (array[i] == num) return true;
 }
-
 return false;
 }
 
@@ -41,11 +40,4 @@ int number = Convert.ToInt32(Console.ReadLine());
 int[] arr = CreateArrayRndInt(12, -9, 9);
 PrintArray(arr);
 
-if (FindNUmArray(arr, number))
-{
-Console.WriteLine("Да");
-}
-else
-{
-Console.WriteLine("Нет");
-}
+Console.WriteLine(FindNUmArray(arr, number)? "Да" : "нет");
